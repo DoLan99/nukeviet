@@ -1,0 +1,44 @@
+[Fri, 22 Apr 2022 10:14:02 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 94] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 268   FILE: /includes/mainfile.php
+#3  LINE: 94    FILE: /vendor/vinades/nukeviet/Core/Database.php
+
+[Fri, 22 Apr 2022 10:14:02 +0700] [localhost] [::1] [User Error(256): Sorry! Could not connect to data server] [FILE: /includes/mainfile.php] [LINE: 273] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 273   FILE: /includes/mainfile.php
+
+[Fri, 22 Apr 2022 10:14:35 +0700] [localhost] [::1] [Run-time notices(8192): Return type of NukeViet\Core\Database::exec($statement) should either be compatible with PDO::exec(string $statement): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 537] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 268   FILE: /includes/mainfile.php
+#3  LINE: 346   FILE: /vendor/composer/ClassLoader.php
+#4  LINE: 478   FILE: /vendor/composer/ClassLoader.php
+
+[Fri, 22 Apr 2022 10:14:35 +0700] [localhost] [::1] [Run-time notices(8192): Return type of NukeViet\Core\Database::prepare($statement, $driver_options = []) should either be compatible with PDO::prepare(string $query, array $options = []): PDOStatement|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 553] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 268   FILE: /includes/mainfile.php
+#3  LINE: 346   FILE: /vendor/composer/ClassLoader.php
+#4  LINE: 478   FILE: /vendor/composer/ClassLoader.php
+
+[Fri, 22 Apr 2022 10:14:35 +0700] [localhost] [::1] [Run-time notices(8192): Return type of NukeViet\Core\Database::query($statement, $fetchMode = null, ...$fetchModeArgs) should either be compatible with PDO::query(string $query, ?int $fetchMode = null, mixed ...$fetchModeArgs): PDOStatement|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 519] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 268   FILE: /includes/mainfile.php
+#3  LINE: 346   FILE: /vendor/composer/ClassLoader.php
+#4  LINE: 478   FILE: /vendor/composer/ClassLoader.php
+
+[Fri, 22 Apr 2022 10:14:35 +0700] [localhost] [::1] [Run-time notices(8192): Return type of NukeViet\Core\NukeVietPDOStatement::execute($args = null) should either be compatible with PDOStatement::execute(?array $params = null): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 670] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 268   FILE: /includes/mainfile.php
+#3  LINE: 346   FILE: /vendor/composer/ClassLoader.php
+#4  LINE: 478   FILE: /vendor/composer/ClassLoader.php
+
+[Fri, 22 Apr 2022 11:06:28 +0700] [localhost] [::1] [Warning(2): file_get_contents(D:/laragon/www/nukeviet/themes/default/modules/xuatbaiviet\main_list.tpl): failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1333] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 172   FILE: /modules/xuatbaiviet/funcs/main.php
+#3  LINE: 132   FILE: /modules/xuatbaiviet/theme.php
+#4  LINE: 395   FILE: /includes/xtemplate.class.php
+#5  LINE: 506   FILE: /includes/xtemplate.class.php
+#6  LINE: 537   FILE: /includes/xtemplate.class.php
+#7  LINE: 1365  FILE: /includes/xtemplate.class.php
+#8  LINE: 1333  FILE: /includes/xtemplate.class.php
+
